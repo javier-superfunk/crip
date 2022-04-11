@@ -1,0 +1,101 @@
+[{
+        "dominio": "EST_INCIDENTE",
+        "descripcion": "Cerrado",
+        "val_minimo": "0",
+        "val_maximo": null,
+        "codigo": null,
+        "referencia": null,
+        "env_correo": 0,
+        "usu_insercion": "62"
+    },
+    {
+        "dominio": "EST_INCIDENTE",
+        "descripcion": "Cargado",
+        "val_minimo": "1",
+        "val_maximo": null,
+        "codigo": null,
+        "referencia": null,
+        "env_correo": 0,
+        "usu_insercion": "62"
+    },
+    {
+        "dominio": "EST_INCIDENTE",
+        "descripcion": "En espera",
+        "val_minimo": "2",
+        "val_maximo": null,
+        "codigo": null,
+        "referencia": null,
+        "env_correo": 0,
+        "usu_insercion": "62"
+    },
+    {
+        "dominio": "EST_INCIDENTE",
+        "descripcion": "Resuelto",
+        "val_minimo": "3",
+        "val_maximo": null,
+        "codigo": null,
+        "referencia": null,
+        "env_correo": 0,
+        "usu_insercion": "62"
+    },
+    {
+        "dominio": "EST_INCIDENTE",
+        "descripcion": "En verificacion",
+        "val_minimo": "4",
+        "val_maximo": null,
+        "codigo": null,
+        "referencia": null,
+        "env_correo": 0,
+        "usu_insercion": "62"
+    },
+    {
+        "dominio": "EST_INCIDENTE",
+        "descripcion": "Cancelado",
+        "val_minimo": "5",
+        "val_maximo": null,
+        "codigo": null,
+        "referencia": null,
+        "env_correo": 0,
+        "usu_insercion": "62"
+    },
+    {
+        "dominio": "PRIORIDAD_INCIDENTE",
+        "descripcion": "Bajo",
+        "val_minimo": "0",
+        "val_maximo": null,
+        "codigo": null,
+        "referencia": null,
+        "env_correo": 0,
+        "usu_insercion": "62"
+    },
+    {
+        "dominio": "PRIORIDAD_INCIDENTE",
+        "descripcion": "Normal",
+        "val_minimo": "1",
+        "val_maximo": null,
+        "codigo": null,
+        "referencia": null,
+        "env_correo": 0,
+        "usu_insercion": "62"
+    },
+    {
+        "dominio": "PRIORIDAD_INCIDENTE",
+        "descripcion": "Alto",
+        "val_minimo": "2",
+        "val_maximo": null,
+        "codigo": null,
+        "referencia": null,
+        "env_correo": 0,
+        "usu_insercion": "62"
+    },
+    {
+        "dominio": "PRIORIDAD_INCIDENTE",
+        "descripcion": "Urgente",
+        "val_minimo": "3",
+        "val_maximo": null,
+        "codigo": null,
+        "referencia": null,
+        "env_correo": 0,
+        "usu_insercion": "62"
+    }
+]
