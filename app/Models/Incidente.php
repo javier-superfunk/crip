@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Models\Sistemas;
 use App\Models\ReferenciasGenerales;
 use App\Traits\AuditoriaModelosTrait;
 use Illuminate\Database\Eloquent\Model;
@@ -61,6 +62,11 @@ class Incidente extends Model
     public function usuarioEliminacion()
     {
         return $this->belongsTo(User::class, 'usu_eliminacion');
+    }
+    
+    public function sistema()
+    {
+        return $this->belongsTo(Sistemas::class, 'id_sistema');
     }
 
     public function estado()

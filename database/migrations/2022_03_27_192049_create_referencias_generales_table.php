@@ -23,7 +23,7 @@ return new class extends Migration {
             $table->string('referencia', 150)->nullable();
             $table->boolean('env_correo', true);
 
-            $table->foreignId('usu_insercion')->constrained(table: 'users');
+            $table->foreignId('usu_insercion')->nullable()->constrained(table: 'users');
             $table->foreignId('usu_modificacion')->nullable()->constrained(table: 'users');
             $table->foreignId('usu_eliminacion')->nullable()->constrained(table: 'users');
             

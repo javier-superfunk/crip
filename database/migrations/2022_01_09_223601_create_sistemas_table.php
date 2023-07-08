@@ -21,7 +21,7 @@ return new class extends Migration {
 
             $table->unsignedBigInteger('id_proveedor')->nullable();
 
-            $table->foreignId('usu_insercion')->constrained(table: 'users');
+            $table->foreignId('usu_insercion')->nullable()->constrained(table: 'users');
             $table->foreignId('usu_modificacion')->nullable()->constrained(table: 'users');
             $table->foreignId('usu_eliminacion')->nullable()->constrained(table: 'users');
             

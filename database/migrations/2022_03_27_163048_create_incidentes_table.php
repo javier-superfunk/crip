@@ -19,8 +19,9 @@ return new class extends Migration {
             $table->longText('descripcion');
             $table->integer('estado')->unsigned();
             $table->integer('prioridad')->unsigned();
-
-            $table->foreignId('usu_insercion')->constrained(table: 'users');
+            
+            $table->foreignId('id_sistema')->constrained(table: 'sistemas');
+            $table->foreignId('usu_insercion')->nullable()->constrained(table: 'users');
             $table->foreignId('usu_modificacion')->nullable()->constrained(table: 'users');
             $table->foreignId('usu_eliminacion')->nullable()->constrained(table: 'users');
             

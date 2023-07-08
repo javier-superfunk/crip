@@ -12,10 +12,10 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-    .js('node_modules/@fortawesome/fontawesome-free/js/all.min.js', 'public/js')
     .sass('resources/scss/styles.scss', 'public/css', [
         //
-    ]);
+    ])
+    .copy('node_modules/@fortawesome/fontawesome-free/webfonts', 'public/webfonts');
 
 mix.copyDirectory('resources/assets/fonts', 'public/assets/fonts');
 mix.copyDirectory('resources/assets/img', 'public/assets/img');

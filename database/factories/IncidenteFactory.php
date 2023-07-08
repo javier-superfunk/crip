@@ -23,6 +23,7 @@ class IncidenteFactory extends Factory
             'prioridad' => rand(0, 3),
             'estado' =>  rand(0, 5),
             'usu_insercion' => 62,
+            'id_sistema' => rand(1, 19),
         ];
     }
 

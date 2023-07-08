@@ -20,7 +20,7 @@ return new class extends Migration {
             $table->string('email')->unique();
             $table->boolean('activo');
 
-            $table->foreignId('usu_insercion')->constrained(table: 'users');
+            $table->foreignId('usu_insercion')->nullable()->constrained(table: 'users');
             $table->foreignId('usu_modificacion')->nullable()->constrained(table: 'users');
             $table->foreignId('usu_eliminacion')->nullable()->constrained(table: 'users');
             

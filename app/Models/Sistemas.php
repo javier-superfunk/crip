@@ -83,4 +83,14 @@ class Sistemas extends Model
                     ->withPivot('usu_insercion', 'usu_modificacion', 'usu_eliminacion')
                     ->withTimestamps();
     }
+
+    /**
+     * Get all of the comments for the Sistemas
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function incidentes(): HasMany
+    {
+        return $this->hasMany(Incidente::class, 'id_sistema');
+    }
 }
